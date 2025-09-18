@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Padaria Branco Quente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .transition-slow {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .about-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://static.photos/food/1200x630/15');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-amber-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold playfair text-amber-800">Padaria Branco Quente</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-amber-800 transition-slow">Home</a>
+                    <a href="menu.html" class="text-gray-600 hover:text-amber-800 transition-slow">Menu</a>
+                    <a href="about.html" class="text-amber-800 font-medium hover:text-amber-600 transition-slow">About</a>
+                    <a href="#" class="text-gray-600 hover:text-amber-800 transition-slow">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="text-amber-800"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="about-hero h-96 flex items-center justify-center text-white">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h1 class="playfair text-4xl md:text-6xl font-bold mb-6">Our Story</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Three generations of baking tradition in Monchique</p>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="http://static.photos/food/640x360/16" alt="Original bakery" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h2 class="playfair text-3xl md:text-4xl font-bold text-amber-800 mb-6">From Humble Beginnings</h2>
+                    <p class="text-gray-700 mb-4">Founded in 1987 by João and Maria Silva, Padaria Branco Quente started as a small neighborhood bakery serving fresh bread to the residents of Monchique.</p>
+                    <p class="text-gray-700 mb-6">What began as a modest wood-fired oven operation has grown into a beloved local institution, now run by their daughter Ana and her husband Carlos, who continue the family traditions while adding their own innovations.</p>
+                    <div class="flex items-center text-gray-700">
+                        <i data-feather="clock" class="mr-2 text-amber-600"></i>
+                        <span>Open daily since 1987</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-20 bg-amber-50">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-3xl mx-auto" data-aos="fade-up">
+                <h2 class="playfair text-3xl md:text-4xl font-bold text-amber-800 mb-6">Our Mission & Values</h2>
+                <p class="text-gray-700 mb-8">At Padaria Branco Quente, we believe in preserving Portuguese baking traditions while using only the finest local ingredients. Our commitment to quality and authenticity has remained unchanged for over three decades.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-amber-600 mb-4">
+                            <i data-feather="heart" class="w-10 h-10 mx-auto"></i>
+                        </div>
+                        <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Passion</h3>
+                        <p class="text-gray-600">Baking with love and dedication in every product</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-amber-600 mb-4">
+                            <i data-feather="award" class="w-10 h-10 mx-auto"></i>
+                        </div>
+                        <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Quality</h3>
+                        <p class="text-gray-600">Only the finest local ingredients in our recipes</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-amber-600 mb-4">
+                            <i data-feather="users" class="w-10 h-10 mx-auto"></i>
+                        </div>
+                        <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Community</h3>
+                        <p class="text-gray-600">Serving our neighbors with pride since 1987</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="playfair text-3xl md:text-4xl font-bold text-amber-800 mb-4">Meet Our Team</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">The faces behind your favorite baked goods</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/people/320x240/1" alt="Ana Silva" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Ana Silva</h3>
+                    <p class="text-gray-600 font-medium mb-2">Owner & Head Baker</p>
+                    <p class="text-gray-600">Daughter of the founders, Ana grew up in the bakery and trained in Lisbon before taking over the family business.</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/people/320x240/2" alt="Carlos Mendes" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Carlos Mendes</h3>
+                    <p class="text-gray-600 font-medium mb-2">Pastry Chef</p>
+                    <p class="text-gray-600">Specializing in traditional Portuguese pastries, Carlos brings 20 years of experience to our kitchen.</p>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://static.photos/people/320x240/3" alt="Miguel Costa" class="w-48 h-48 rounded-full object-cover mx-auto mb-4 shadow-lg">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Miguel Costa</h3>
+                    <p class="text-gray-600 font-medium mb-2">Bread Master</p>
+                    <p class="text-gray-600">Our wood-fired oven expert who starts baking at 3am to ensure fresh bread every morning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-amber-800 text-white">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h2 class="playfair text-3xl md:text-4xl font-bold mb-6">Visit Our Bakery</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Experience our tradition and taste the difference of authentic Portuguese baking</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="menu.html" class="bg-white text-amber-800 hover:bg-amber-100 font-bold py-3 px-8 rounded-full transition-slow inline-block">View Menu</a>
+                <a href="#" class="border-2 border-white hover:bg-white hover:text-amber-800 font-bold py-3 px-8 rounded-full transition-slow inline-block">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="playfair text-xl font-bold mb-4">Padaria Branco Quente</h3>
+                    <p class="text-gray-400">Traditional Portuguese bakery in Monchique since 1987.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-slow">Home</a></li>
+                        <li><a href="menu.html" class="text-gray-400 hover:text-white transition-slow">Menu</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-slow">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-slow">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Hours</h4>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>Monday - Friday: 6am - 7pm</li>
+                        <li>Saturday: 6am - 5pm</li>
+                        <li>Sunday: 7am - 2pm</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">Rua da Padaria 12<br>Monchique, Portugal</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Padaria Branco Quente. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
