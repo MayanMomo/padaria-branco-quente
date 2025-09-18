@@ -68,7 +68,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Bread 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="pao.webp" alt="Pão de Monchique" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="pao.webp" alt="Bread with cheese" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão de Monchique</h3>
                     <p class="text-gray-600 mb-4">Our signature wood-fired bread with crispy crust and soft interior.</p>
                     <p class="font-bold text-amber-700">€2.50</p>
@@ -76,7 +76,7 @@
                 
                 <!-- Bread 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/8" alt="Pão Alentejano" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="paes.jpg" alt="Monchique bread" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão Alentejano</h3>
                     <p class="text-gray-600 mb-4">Traditional round bread from Alentejo region with dense crumb.</p>
                     <p class="font-bold text-amber-700">€2.80</p>
@@ -84,7 +84,7 @@
                 
                 <!-- Bread 3 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/9" alt="Pão de Centeio" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="http://static.photos/food/320x240/9" alt="Placeholder" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão de Centeio</h3>
                     <p class="text-gray-600 mb-4">Hearty rye bread with deep flavor and chewy texture.</p>
                     <p class="font-bold text-amber-700">€3.00</p>
@@ -104,7 +104,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Pastry 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/6" alt="Pastel de Nata" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="doces.webp" alt="Sweet Pastries" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pastel de Nata</h3>
                     <p class="text-gray-600 mb-4">Creamy custard tarts with flaky pastry, dusted with cinnamon.</p>
                     <p class="font-bold text-amber-700">€1.20 each</p>
@@ -112,7 +112,7 @@
                 
                 <!-- Pastry 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/10" alt="Bolo de Arroz" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="boladeberlim" alt="Bola de Berlim" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Arroz</h3>
                     <p class="text-gray-600 mb-4">Traditional rice flour muffins with a light, airy texture.</p>
                     <p class="font-bold text-amber-700">€1.00 each</p>
@@ -120,7 +120,7 @@
                 
                 <!-- Pastry 3 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/7" alt="Bolo de Mel" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="icecream.webp" alt="Ice Cream" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Mel</h3>
                     <p class="text-gray-600 mb-4">Traditional honey cake made with Algarve honey and almonds.</p>
                     <p class="font-bold text-amber-700">€3.50 per slice</p>
@@ -140,7 +140,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Drink 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/11" alt="Bica (Espresso)" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <img src="coffee.webp" alt="Bica (Espresso)" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bica (Espresso)</h3>
                     <p class="text-gray-600 mb-4">Strong Portuguese-style espresso made with local beans.</p>
                     <p class="font-bold text-amber-700">€0.80</p>
@@ -148,7 +148,7 @@
                 
                 <!-- Drink 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/12" alt="Galão (Milky Coffee)" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <alt="Galão (Milky Coffee)" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Galão (Milky Coffee)</h3>
                     <p class="text-gray-600 mb-4">Portuguese latte served in a tall glass.</p>
                     <p class="font-bold text-amber-700">€1.50</p>
@@ -156,7 +156,7 @@
                 
                 <!-- Drink 3 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="http://static.photos/food/320x240/13" alt="Sumo de Laranja" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <alt="Sumo de Laranja" class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Sumo de Laranja</h3>
                     <p class="text-gray-600 mb-4">Freshly squeezed orange juice from Algarve oranges.</p>
                     <p class="font-bold text-amber-700">€2.00</p>
