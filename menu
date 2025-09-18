@@ -68,17 +68,17 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Bread 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="pao.webp" alt="Bread with cheese" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão de Monchique</h3>
-                    <p class="text-gray-600 mb-4">Our signature wood-fired bread with crispy crust and soft interior.</p>
+                    <img src="pao.webp" alt="Pão com Queijo" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bread with cheese</h3>
+                    <p class="text-gray-600 mb-4">Bread cooked in the oven with cheese and herbs.</p>
                     <p class="font-bold text-amber-700">€2.50</p>
                 </div>
                 
                 <!-- Bread 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="paes.jpg" alt="Monchique bread" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão Alentejano</h3>
-                    <p class="text-gray-600 mb-4">Traditional round bread from Alentejo region with dense crumb.</p>
+                    <img src="paes.jpg" alt="Pão de Monchique" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Monchique Bread</h3>
+                    <p class="text-gray-600 mb-4">Our signature bread with crispy crust and soft interior.</p>
                     <p class="font-bold text-amber-700">€2.80</p>
                 </div>
                 
@@ -104,8 +104,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Pastry 1 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="doces.webp" alt="Sweet Pastries" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pastel de Nata</h3>
+                    <img src="doces.webp" alt="Doces" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Sweet Pastries</h3>
                     <p class="text-gray-600 mb-4">Creamy custard tarts with flaky pastry, dusted with cinnamon.</p>
                     <p class="font-bold text-amber-700">€1.20 each</p>
                 </div>
@@ -113,16 +113,16 @@
                 <!-- Pastry 2 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
                     <img src="boladeberlim" alt="Bola de Berlim" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Arroz</h3>
-                    <p class="text-gray-600 mb-4">Traditional rice flour muffins with a light, airy texture.</p>
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bola de Berlim</h3>
+                    <p class="text-gray-600 mb-4">A Bola de Berlim filled with a chocolaty interior.</p>
                     <p class="font-bold text-amber-700">€1.00 each</p>
                 </div>
                 
                 <!-- Pastry 3 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="icecream.webp" alt="Ice Cream" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Mel</h3>
-                    <p class="text-gray-600 mb-4">Traditional honey cake made with Algarve honey and almonds.</p>
+                    <img src="icecream.webp" alt="Gelado" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Ice Cream</h3>
+                    <p class="text-gray-600 mb-4">Many different ice cream flavors.</p>
                     <p class="font-bold text-amber-700">€3.50 per slice</p>
                 </div>
             </div>
@@ -156,10 +156,10 @@
                 
                 <!-- Drink 3 -->
                 <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
-                    <img src="images/juices.webp"<alt="Fruit Juices" class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Sumo de Laranja</h3>
-                    <p class="text-gray-600 mb-4">Freshly squeezed orange juice from Algarve oranges.</p>
-                    <p class="font-bold text-amber-700">€2.00</p>
+                    <img src="images/juices.webp"<alt="Sumos de Fruta" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Fruit Juices</h3>
+                    <p class="text-gray-600 mb-4">Freshly made fruit juices.</p>
+                    <p class="font-bold text-amber-700">€3.00</p>
                 </div>
             </div>
         </div>
