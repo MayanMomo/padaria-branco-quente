@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Padaria Branco Quente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .transition-slow {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .contact-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('http://static.photos/food/1200x630/20');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .map-placeholder {
+            background-color: #f5f5f5;
+            height: 100%;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body class="bg-amber-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold playfair text-amber-800">Padaria Branco Quente</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-amber-800 transition-slow">Home</a>
+                    <a href="menu.html" class="text-gray-600 hover:text-amber-800 transition-slow">Menu</a>
+                    <a href="about.html" class="text-gray-600 hover:text-amber-800 transition-slow">About</a>
+                    <a href="contact.html" class="text-amber-800 font-medium hover:text-amber-600 transition-slow">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="text-amber-800"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="contact-hero h-64 flex items-center justify-center text-white">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h1 class="playfair text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p class="text-xl">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <!-- Contact Form -->
+                <div class="lg:w-1/2" data-aos="fade-right">
+                    <h2 class="playfair text-3xl font-bold text-amber-800 mb-6">Send Us a Message</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-slow inline-block">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="lg:w-1/2" data-aos="fade-left">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <!-- Map Placeholder -->
+                        <div class="map-placeholder">
+                            <div class="text-center p-6">
+                                <i data-feather="map-pin" class="w-12 h-12 mx-auto text-amber-600 mb-4"></i>
+                                <p class="text-lg font-medium">Google Map would appear here</p>
+                                <p class="text-sm">showing our bakery location in Monchique</p>
+                            </div>
+                        </div>
+                        
+                        <div class="p-6">
+                            <h3 class="playfair text-xl font-bold text-amber-800 mb-4">Visit Our Bakery</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i data-feather="map-pin" class="text-amber-600 mr-4 mt-1"></i>
+                                    <div>
+                                        <p class="font-medium">Address</p>
+                                        <p class="text-gray-600">Rua da Padaria 12<br>Monchique, Portugal</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <i data-feather="phone" class="text-amber-600 mr-4"></i>
+                                    <div>
+                                        <p class="font-medium">Phone</p>
+                                        <p class="text-gray-600">+351 282 912 345</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center">
+                                    <i data-feather="mail" class="text-amber-600 mr-4"></i>
+                                    <div>
+                                        <p class="font-medium">Email</p>
+                                        <p class="text-gray-600">info@brancoquente.com</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center pt-4">
+                                    <i data-feather="clock" class="text-amber-600 mr-4"></i>
+                                    <div>
+                                        <p class="font-medium">Opening Hours</p>
+                                        <p class="text-gray-600">Mon-Fri: 6am - 7pm<br>Sat: 6am - 5pm<br>Sun: 7am - 2pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-8">
+                                <h4 class="font-bold mb-4">Follow Us</h4>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-full p-3 transition-slow">
+                                        <i data-feather="facebook" class="w-5 h-5"></i>
+                                    </a>
+                                    <a href="#" class="bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-full p-3 transition-slow">
+                                        <i data-feather="instagram" class="w-5 h-5"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="playfair text-xl font-bold mb-4">Padaria Branco Quente</h3>
+                    <p class="text-gray-400">Traditional Portuguese bakery in Monchique since 1987.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-slow">Home</a></li>
+                        <li><a href="menu.html" class="text-gray-400 hover:text-white transition-slow">Menu</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-slow">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-slow">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Hours</h4>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>Monday - Friday: 6am - 7pm</li>
+                        <li>Saturday: 6am - 5pm</li>
+                        <li>Sunday: 7am - 2pm</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">Rua da Padaria 12<br>Monchique, Portugal</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Padaria Branco Quente. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
