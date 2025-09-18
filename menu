@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Padaria Branco Quente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .menu-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .transition-slow {
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-amber-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold playfair text-amber-800">Padaria Branco Quente</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-amber-800 transition-slow">Home</a>
+                    <a href="menu.html" class="text-amber-800 font-medium hover:text-amber-600 transition-slow">Menu</a>
+                    <a href="#" class="text-gray-600 hover:text-amber-800 transition-slow">About</a>
+                    <a href="#" class="text-gray-600 hover:text-amber-800 transition-slow">Contact</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu" class="text-amber-800"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Header -->
+    <section class="py-16 bg-amber-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="playfair text-4xl md:text-5xl font-bold mb-4">Our Menu</h1>
+            <p class="text-xl max-w-2xl mx-auto">Traditional Portuguese baked goods made with love and local ingredients</p>
+        </div>
+    </section>
+
+    <!-- Breads Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="playfair text-3xl font-bold text-amber-800 mb-2">Breads</h2>
+                <div class="w-20 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Bread 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/5" alt="Pão de Monchique" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão de Monchique</h3>
+                    <p class="text-gray-600 mb-4">Our signature wood-fired bread with crispy crust and soft interior.</p>
+                    <p class="font-bold text-amber-700">€2.50</p>
+                </div>
+                
+                <!-- Bread 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/8" alt="Pão Alentejano" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão Alentejano</h3>
+                    <p class="text-gray-600 mb-4">Traditional round bread from Alentejo region with dense crumb.</p>
+                    <p class="font-bold text-amber-700">€2.80</p>
+                </div>
+                
+                <!-- Bread 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/9" alt="Pão de Centeio" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pão de Centeio</h3>
+                    <p class="text-gray-600 mb-4">Hearty rye bread with deep flavor and chewy texture.</p>
+                    <p class="font-bold text-amber-700">€3.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pastries Section -->
+    <section class="py-12 bg-amber-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="playfair text-3xl font-bold text-amber-800 mb-2">Pastries</h2>
+                <div class="w-20 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Pastry 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/6" alt="Pastel de Nata" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Pastel de Nata</h3>
+                    <p class="text-gray-600 mb-4">Creamy custard tarts with flaky pastry, dusted with cinnamon.</p>
+                    <p class="font-bold text-amber-700">€1.20 each</p>
+                </div>
+                
+                <!-- Pastry 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/10" alt="Bolo de Arroz" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Arroz</h3>
+                    <p class="text-gray-600 mb-4">Traditional rice flour muffins with a light, airy texture.</p>
+                    <p class="font-bold text-amber-700">€1.00 each</p>
+                </div>
+                
+                <!-- Pastry 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/7" alt="Bolo de Mel" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bolo de Mel</h3>
+                    <p class="text-gray-600 mb-4">Traditional honey cake made with Algarve honey and almonds.</p>
+                    <p class="font-bold text-amber-700">€3.50 per slice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="playfair text-3xl font-bold text-amber-800 mb-2">Drinks</h2>
+                <div class="w-20 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Drink 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/11" alt="Bica (Espresso)" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Bica (Espresso)</h3>
+                    <p class="text-gray-600 mb-4">Strong Portuguese-style espresso made with local beans.</p>
+                    <p class="font-bold text-amber-700">€0.80</p>
+                </div>
+                
+                <!-- Drink 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/12" alt="Galão (Milky Coffee)" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Galão (Milky Coffee)</h3>
+                    <p class="text-gray-600 mb-4">Portuguese latte served in a tall glass.</p>
+                    <p class="font-bold text-amber-700">€1.50</p>
+                </div>
+                
+                <!-- Drink 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md menu-item transition-slow p-6">
+                    <img src="http://static.photos/food/320x240/13" alt="Sumo de Laranja" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="playfair text-xl font-bold text-amber-800 mb-2">Sumo de Laranja</h3>
+                    <p class="text-gray-600 mb-4">Freshly squeezed orange juice from Algarve oranges.</p>
+                    <p class="font-bold text-amber-700">€2.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="playfair text-xl font-bold mb-4">Padaria Branco Quente</h3>
+                    <p class="text-gray-400">Traditional Portuguese bakery in Monchique since 1987.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-slow">Home</a></li>
+                        <li><a href="menu.html" class="text-gray-400 hover:text-white transition-slow">Menu</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-slow">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-slow">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Hours</h4>
+                    <ul class="text-gray-400 space-y-2">
+                        <li>Monday - Friday: 6am - 7pm</li>
+                        <li>Saturday: 6am - 5pm</li>
+                        <li>Sunday: 7am - 2pm</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-slow">
+                            <i data-feather="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 mt-4">Rua da Padaria 12<br>Monchique, Portugal</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Padaria Branco Quente. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
